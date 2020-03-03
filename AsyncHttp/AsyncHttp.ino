@@ -1,6 +1,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
-#include "Config.h";
+
+
+const char* ssid = "yourSSID";
+const char* pass = "YourPassword";
+const char* url = "http://192.168.0.120/";
 
 void setup(){
   Serial.begin(115200);
